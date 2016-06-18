@@ -1,0 +1,35 @@
+{
+  "name": "js_application",
+  "version": "0.0.1",
+  "description": "A class for managing the various components of a js application; written in ES6.",
+  "main": "src/Application.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u 'tdd'",
+    "pretest": "./node_modules/rollup/bin/rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://20TRIES@github.com/20TRIES/JsApplication.git"
+  },
+  "keywords": [
+    "Application",
+    "Js",
+    "es6"
+  ],
+  "author": "Marcus T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/20TRIES/JsApplication/issues"
+  },
+  "homepage": "https://github.com/20TRIES/JsApplication#readme",
+  "dependencies": {
+    "js_collection": "0.0.*"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.*",
+    "chai": "^3.5.*",
+    "rollup": "^0.31.*",
+    "rollup-plugin-buble": "0.11.*",
+    "rollup-plugin-npm": "1.4.*"
+  }
+}
